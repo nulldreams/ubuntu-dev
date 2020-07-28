@@ -26,4 +26,4 @@ echo -e 'Installing Fira Code Font\n\n' &&
 sudo apt install fonts-firacode -y &&
 
 echo -e 'Finished... Lets code'
-``
+```
