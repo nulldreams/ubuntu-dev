@@ -9,7 +9,9 @@ sudo apt install curl -y &&
 echo -e '\n\n'
 
 echo -e 'Installing NodeJS 12.x\n\n' &&
-curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh && sudo bash ./nodesource_setup.sh && sudo apt install nodejs -y &&
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh &&
+sudo bash ./nodesource_setup.sh &&
+sudo apt install nodejs -y &&
 echo -e '\n\n' &&
 
 echo -e 'Installing VS Code\n\n' &&
