@@ -1,7 +1,7 @@
 Install basic resources to develop using node on ubuntu.
 
 ```bash
-sudo apt update && sudo apt upgrade &&
+sudo apt update -y && sudo apt upgrade -y &&
 echo -e '\n\n'
 
 echo -e 'Installing Curl\n\n' &&
